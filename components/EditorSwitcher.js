@@ -1,4 +1,4 @@
-/* === components/EditorSwitcher.js === */
+
 import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import clsx from 'clsx';
