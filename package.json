@@ -1,0 +1,29 @@
+/* === package.json === */
+{
+  "name": "professional-richtext-nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@tiptap/react": "^2.0.0",
+    "@tiptap/starter-kit": "^2.0.0",
+    "@tiptap/extension-image": "^2.0.0",
+    "@tiptap/extension-table": "^2.0.0",
+    "@tiptap/extension-link": "^2.0.0",
+    "@tiptap/extension-text-align": "^2.0.0",
+    "@ckeditor/ckeditor5-react": "^6.0.0",
+    "@ckeditor/ckeditor5-build-classic": "^36.0.1",
+    "@lexical/react": "^0.9.0",
+    "@lexical/rich-text": "^0.9.0",
+    "@lexical/table": "^0.9.0",
+    "@lexical/list": "^0.9.0",
+    "@lexical/code": "^0.9.0",
+    "clsx": "^1.2.1"
+  }
+}
