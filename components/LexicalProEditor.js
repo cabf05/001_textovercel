@@ -1,4 +1,4 @@
-/* === components/LexicalProEditor.js === */
+
 import React, { useState, useCallback } from 'react';
 import {
   LexicalComposer, RichTextPlugin, ContentEditable,
