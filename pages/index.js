@@ -3,7 +3,7 @@ import { useState } from 'react';
 import clsx from 'clsx';
 import Head from 'next/head';
 
-const EditorSwitcher = dynamic(() => import('../components/EditorSwitcher'), { ssr: false });
+const EditorSwitcher = dynamic(() => import('../components/TiptapProEditor'), { ssr: false });
 
 export default function Home() {
   const [theme, setTheme] = useState('light');
@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </header>
         <main className="main">
-          <EditorSwitcher />
+          <TiptapProEditor />
         </main>
         <style jsx>{`
           .app-container { padding: 2rem; font-family: Arial, sans-serif; }
