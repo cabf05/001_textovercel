@@ -1,4 +1,3 @@
-/* === pages/index.js === */
 import dynamic from 'next/dynamic';
 import { useState } from 'react';
 import clsx from 'clsx';
