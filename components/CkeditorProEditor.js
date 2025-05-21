@@ -1,4 +1,4 @@
-/* === components/CkeditorProEditor.js === */
+
 import React, { useState, useRef } from 'react';
 import dynamic from 'next/dynamic';
 
